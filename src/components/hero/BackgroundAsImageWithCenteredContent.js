@@ -66,7 +66,7 @@ export default () => {
       <HeroContainer>
         <StyledHeader links={navLinks} />
         <Content>
-        <video 
+        {/* <video 
         id="b9561b64-3c61-c5c4-9ac2-44c901e131c6-video"
         className="h-full"
         autoplay="true"
@@ -83,7 +83,8 @@ export default () => {
         <source
           src="https://assets-global.website-files.com/66041c667295e18e3d1ff479/663c3d605103bbec9e5d07fd_7mb(home)-transcode.webm"
           data-wf-ignore="true"
-        /></video>
+        />
+        </video> */}
           <Heading>
             PLAN YOUR EVENTS
             <br />
