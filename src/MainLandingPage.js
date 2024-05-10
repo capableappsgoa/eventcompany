@@ -12,11 +12,12 @@ import truss from "./images/trusss.png"
 import Card from "components/cards/TabCardGrid";
 import Footer from "components/footers/SimpleFiveColumn.js";
 import DevelopmentMessage from "DevelopmentMessage";
+import Message from "Message";
 
 
 export default () => (
   <AnimationRevealPage>
-    <Hero />
+    {/* <Hero />
     <div className="truss">
       <img src={truss} alt="" srcset="" />
     </div>
@@ -27,7 +28,8 @@ export default () => (
     <Planner />
     <Testimonial />
     
-    <Footer />
+    <Footer /> */}
     {/* <DevelopmentMessage /> */}
+    <Message />
   </AnimationRevealPage>
 );

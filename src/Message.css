@@ -1,0 +1,40 @@
+.message_container{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.message{
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px black;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.message h2 {
+    color: black;
+    font-size: large;
+    font-weight: bold;
+}
+.message img {
+    margin-top: 10px;
+    height: 80px;
+    width: 225px;
+}
+.socials{
+    margin-top: 40px;
+    color: black;
+    gap: 20px;
+    font-size: 20px;
+    display: flex;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 90%;
+    justify-content: center;
+}
