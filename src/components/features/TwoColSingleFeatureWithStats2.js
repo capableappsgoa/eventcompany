@@ -46,7 +46,7 @@ export default ({
       Creating best Event experiences  since <br/><wbr /><span tw="text-blue-500">25 years</span>
     </>
   ),
-  description = "Casant Events has been illuminating celebrations since 1998. With over two decades of experience, we offer tailored lighting, sound, and production services to make your event unforgettable. From weddings to corporate events, trust us to light up your memories. Contact us today!",
+  description = "Casant Events has been illuminating celebrations since 1998. With over two decades of experience, we offer tailored lighting, sound, and production services to make your event unforgettable. From weddings to corporate events, trust us to enhance your occasions with our skilled team. Contact us today!",
   primaryButtonText = "Learn More",
   primaryButtonUrl = "https://timerse.com",
   imageSrc = "https://cloud.appwrite.io/v1/storage/buckets/6620f76347a6c75a350d/files/6637a07f00012bd63f2b/view?project=661d51c7e4d47fa7d45d&mode=admin",

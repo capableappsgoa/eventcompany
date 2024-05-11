@@ -17,7 +17,7 @@ import Message from "Message";
 
 export default () => (
   <AnimationRevealPage>
-    {/* <Hero />
+    <Hero />
     <div className="truss">
       <img src={truss} alt="" srcset="" />
     </div>
@@ -28,8 +28,8 @@ export default () => (
     <Planner />
     <Testimonial />
     
-    <Footer /> */}
+    <Footer />
     {/* <DevelopmentMessage /> */}
-    <Message />
+    {/* <Message /> */}
   </AnimationRevealPage>
 );
