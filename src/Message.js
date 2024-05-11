@@ -10,6 +10,11 @@ const Message = () => {
             <div className="message">
                 <h2>Website in Development</h2>
                 <img src={logo} alt="" srcset="" />
+                <h2 style={{marginTop:"10px"}}><strong>Phone : </strong> +91 9823291463</h2>
+                <h2 style={{marginTop:"10px"}}><strong>Phone : </strong> +91 9823291415</h2>
+                <h2 style={{marginTop:"10px"}}><strong >Address : </strong></h2>
+                <h2 style={{textAlign:"center"}}>Roulo Bando, St. Agostinho, Santa Cruz, Tiswadi, Goa 403005</h2>
+                
                 <div className="socials">
                     <a href="https://www.instagram.com/casantevents.goa/">
                         <FaInstagram />
