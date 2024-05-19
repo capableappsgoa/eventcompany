@@ -1,6 +1,7 @@
 import React from "react";
 import tw from "twin.macro";
 import styled from "styled-components";
+import "../../index.css"
 import { SectionHeading as HeadingTitle } from "../misc/Headings.js";
 import { ReactComponent as SvgDecoratorBlob1 } from "../../images/svg-decorator-blob-1.svg";
 import { ReactComponent as SvgDecoratorBlob2 } from "../../images/svg-decorator-blob-3.svg";
@@ -52,6 +53,7 @@ export default () => {
       title: "This female band is making buzz all over the world",
       url: "https://timerse.com"
     }
+    
   ];
   return (
     <Container>

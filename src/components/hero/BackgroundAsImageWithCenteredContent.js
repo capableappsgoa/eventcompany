@@ -1,7 +1,8 @@
 import React from "react";
 import tw from "twin.macro";
 import styled from "styled-components";
-import { css } from "styled-components/macro"; 
+import { css } from "styled-components/macro";
+import ConfettiExplosion from 'react-confetti-explosion';
 // import Home from "../../videos/7mb.mp4";
 
 import Header, { NavLink, NavLinks, PrimaryLink as PrimaryLinkBase, LogoLink, NavToggle, DesktopNavLinks } from "../headers/light.js";
@@ -37,6 +38,7 @@ const Heading = styled.h1`
 const PrimaryAction = tw.button`rounded-full px-8 py-3 mt-10 text-sm sm:text-base sm:mt-16 sm:px-8 sm:py-4 font-bold shadow transition duration-300 bg-blue-500 text-gray-100 hocus:bg-primary-700 hocus:text-gray-200 focus:outline-none focus:shadow-outline`;
 
 export default () => {
+  const [isExploding, setIsExploding] = React.useState(false);
   const navLinks = [
     <NavLinks key={1}>
       <NavLink href="/Inventory">
@@ -61,12 +63,12 @@ export default () => {
 
   return (
     <Container>
-      
+
       <OpacityOverlay />
       <HeroContainer>
         <StyledHeader links={navLinks} />
         <Content>
-        {/* <video 
+          {/* <video 
         id="b9561b64-3c61-c5c4-9ac2-44c901e131c6-video"
         className="h-full"
         autoplay="true"
@@ -86,11 +88,11 @@ export default () => {
         />
         </video> */}
           <Heading>
-            PLAN YOUR EVENTS
+            Plan Your Next Event
             <br />
-            WITH US
+            With Us
           </Heading>
-          <PrimaryAction>GET QUOTE</PrimaryAction>
+          <a href="https://wa.me/+919823291463"> <PrimaryAction>{isExploding && <ConfettiExplosion />}Get Quote</PrimaryAction></a>
         </Content>
       </HeroContainer>
     </Container>
