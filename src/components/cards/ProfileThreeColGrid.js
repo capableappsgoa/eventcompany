@@ -5,10 +5,9 @@ import { css } from "styled-components/macro";
 import { Container, ContentWithPaddingXl } from "components/misc/Layouts.js";
 import { SectionHeading, Subheading as SubheadingBase } from "components/misc/Headings";
 import { SectionDescription } from "components/misc/Typography";
-import { ReactComponent as TwitterIcon } from "images/twitter-icon.svg";
-import { ReactComponent as LinkedinIcon } from "images/linkedin-icon.svg";
-import { ReactComponent as GithubIcon } from "images/github-icon.svg";
 import { fetchDataProfile } from "./AppwriteData";
+
+
 const HeadingContainer = tw.div``
 const Heading = tw(SectionHeading)``
 const Subheading = tw(SubheadingBase)`text-center mb-3`
@@ -71,7 +70,7 @@ return (
         {TeamData.description && <Description>{TeamData.description}</Description>}
       </HeadingContainer>
       <Cards>
-        {cardArray.map((card, index) => (
+        {cardArray.slice(0, 3).map((card, index) => (
           <Card key={index}>
             <CardImage imageSrc={card.profilePicture} />
             <CardContent>

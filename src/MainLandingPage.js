@@ -25,7 +25,7 @@ export default () => (
     <Card />
     <Gallery />
     <Blog />
-    <Planner />
+    {/* <Planner /> */}
     {/* <Testimonial /> */}
     
     <Footer />
