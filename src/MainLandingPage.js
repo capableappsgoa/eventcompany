@@ -13,7 +13,7 @@ import Card from "components/cards/TabCardGrid";
 import Footer from "components/footers/SimpleFiveColumn.js";
 import DevelopmentMessage from "DevelopmentMessage";
 import Message from "Message";
-
+import "./index.css";
 
 export default () => (
   <AnimationRevealPage>
