@@ -109,3 +109,16 @@ video {
   position: absolute;
   pointer-events: none; /*performance optimization*/
 }
+
+.eMBGtn img {
+  margin-right: .75rem;
+  min-height: 50px !important;
+  min-width: 142px !important;
+}
+
+.djoYkS{
+  font-family: "Dancing Script", cursive !important;
+  font-optical-sizing: auto !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+}
