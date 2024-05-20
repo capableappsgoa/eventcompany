@@ -2,7 +2,6 @@ import React from "react";
 import tw from "twin.macro";
 import styled from "styled-components";
 import { css } from "styled-components/macro";
-import ConfettiExplosion from 'react-confetti-explosion';
 // import Home from "../../videos/7mb.mp4";
 
 import Header, { NavLink, NavLinks, PrimaryLink as PrimaryLinkBase, LogoLink, NavToggle, DesktopNavLinks } from "../headers/light.js";
@@ -92,7 +91,7 @@ export default () => {
             <br />
             With Us
           </Heading>
-          <a href="https://wa.me/+919823291463"> <PrimaryAction>{isExploding && <ConfettiExplosion />}Get Quote</PrimaryAction></a>
+          <a href="https://wa.me/+919823291463"> <PrimaryAction>Get Quote</PrimaryAction></a>
         </Content>
       </HeroContainer>
     </Container>
