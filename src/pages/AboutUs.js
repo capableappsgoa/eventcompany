@@ -50,7 +50,7 @@ export default () => {
         subheading={<Subheading>About Cas Ant</Subheading>}
         description="Cas Ant Events began as Casant Power, a humble business offering power solutions to events of all sizes. Starting with just a generator, the company quickly gained a reputation for reliability and quality service. Over time, Casant Power expanded its services, evolving into Cas Ant Events, a comprehensive event planning and production company. Today, Cas Ant is synonymous with excellence in providing stage lighting, sound systems, and event decorations, reflecting its journey from a simple generator to a leading name in event management. "
         heading="How it all Started in 1998"
-        imageSrc="https://cloud.appwrite.io/v1/storage/buckets/6620f76347a6c75a350d/files/6639046400344a106132/view?project=661d51c7e4d47fa7d45d&mode=admin"
+        imageSrc="https://cloud.appwrite.io/v1/storage/buckets/6620f76347a6c75a350d/files/664ae49e000f1e4b6fc4/view?project=661d51c7e4d47fa7d45d&mode=admin"
       />
       <MainFeature1
         subheading={<Subheading>Our Vision with Cas Ant Events</Subheading>}
