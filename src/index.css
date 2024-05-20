@@ -122,3 +122,7 @@ video {
   font-weight: 400 !important;
   font-style: normal !important;
 }
+.fmdTYx img {
+    margin-right: 0.75rem !Important;
+    width: 8.5rem !Important;
+}
