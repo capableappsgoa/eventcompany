@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -253,10 +253,21 @@ video {
   min-width: 142px !important;
 }
 
+.oleo-script-swash-caps-regular {
+  font-family: "Oleo Script Swash Caps", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.oleo-script-swash-caps-bold {
+  font-family: "Oleo Script Swash Caps", system-ui;
+  font-weight: 700;
+  font-style: normal;
+}
+
 .djoYkS{
-  font-family: "Dancing Script", cursive !important;
-  font-optical-sizing: auto !important;
-  font-weight: 400 !important;
+  font-family: "Oleo Script Swash Caps", system-ui !important;
+  font-weight: 700 !important;
   font-style: normal !important;
 }
 .fmdTYx img {
@@ -264,8 +275,8 @@ video {
     width: 8.5rem !important;
 }
 .bHsVmK {
-  font-family: "Dancing Script", cursive !important;
-  font-optical-sizing: auto !important;
-  font-weight: 400 !important;
+  font-family: "Oleo Script Swash Caps", system-ui !important;
+  font-weight: 700 !important;
   font-style: normal !important;
 }
+
