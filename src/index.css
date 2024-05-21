@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -117,6 +118,16 @@ video {
 }
 
 .djoYkS{
+  font-family: "Dancing Script", cursive !important;
+  font-optical-sizing: auto !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+}
+.fmdTYx img {
+    margin-right: 0.75rem !important;
+    width: 8.5rem !important;
+}
+.bHsVmK {
   font-family: "Dancing Script", cursive !important;
   font-optical-sizing: auto !important;
   font-weight: 400 !important;

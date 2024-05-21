@@ -83,7 +83,7 @@ const GalleryData = {
     ...Gallery
   }
 }
-console.log(Gallery);
+// console.log(Gallery);
 const PostsArray = Object.values(GalleryData.posts); // Spread the cards object into an array
 
 

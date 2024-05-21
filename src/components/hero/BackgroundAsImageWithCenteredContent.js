@@ -37,7 +37,6 @@ const Heading = styled.h1`
 const PrimaryAction = tw.button`rounded-full px-8 py-3 mt-10 text-sm sm:text-base sm:mt-16 sm:px-8 sm:py-4 font-bold shadow transition duration-300 bg-blue-500 text-gray-100 hocus:bg-primary-700 hocus:text-gray-200 focus:outline-none focus:shadow-outline`;
 
 export default () => {
-  const [isExploding, setIsExploding] = React.useState(false);
   const navLinks = [
     <NavLinks key={1}>
       <NavLink href="/Inventory">
@@ -67,7 +66,8 @@ export default () => {
       <HeroContainer>
         <StyledHeader links={navLinks} />
         <Content>
-          {/* <video 
+        {
+        /* <video 
         id="b9561b64-3c61-c5c4-9ac2-44c901e131c6-video"
         className="h-full"
         autoplay="true"
@@ -85,7 +85,8 @@ export default () => {
           src="https://assets-global.website-files.com/66041c667295e18e3d1ff479/663c3d605103bbec9e5d07fd_7mb(home)-transcode.webm"
           data-wf-ignore="true"
         />
-        </video> */}
+        </video> */
+        }
           <Heading>
             Plan Your Next Event
             <br />

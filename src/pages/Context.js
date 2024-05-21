@@ -21,13 +21,13 @@ export const NumberProvider = ({ children }) => {
     setGalleryPostId(index);
   };
   const InventoryNumberEditID = (id) => {
-    console.log("id", id);
+    // console.log("id", id);
     setInventoryEdit(id);
   };
   const updateUser = (user) => {
     setUser(user);
   }
-console.log(user);
+// console.log(user);
   return (
     <NumberContext.Provider value={{ editID, number, user  , galleryPostId , inventoryEdit, updateNumber, updateGalleryPostID,  updateUser , updateNumberEditID, InventoryNumberEditID }}>
       {children}
