@@ -33,21 +33,23 @@ export default ({
   return (
     <Container css={pushDownFooter && tw`mb-20 lg:mb-24`}>
       <ContentWithPaddingXl>
-      <PrimaryBackgroundContainer>
-        <Row>
-          <TextContainer>
-            {subheading && <Subheading>{subheading}</Subheading>}
-            <Heading>{heading}</Heading>
-          </TextContainer>
-          <LinksContainer>
-            <SecondaryLink href={secondaryLinkUrl}>{secondaryLinkText}</SecondaryLink>
-          </LinksContainer>
-        </Row>
-        <DecoratorBlobContainer>
-          <DecoratorBlob1/>
-          <DecoratorBlob2/>
-        </DecoratorBlobContainer>
-      </PrimaryBackgroundContainer>
+        <PrimaryBackgroundContainer>
+          <Row>
+            <TextContainer>
+              {subheading && <Subheading>{subheading}</Subheading>}
+              <Heading>{heading}</Heading>
+            </TextContainer>
+            <LinksContainer>
+              <a href="/casanteventsportfolio.pdf" download={"casanteventsportfolio.pdf"}>
+                <SecondaryLink>{secondaryLinkText}</SecondaryLink>
+              </a>
+            </LinksContainer>
+          </Row>
+          <DecoratorBlobContainer>
+            <DecoratorBlob1 />
+            <DecoratorBlob2 />
+          </DecoratorBlobContainer>
+        </PrimaryBackgroundContainer>
       </ContentWithPaddingXl>
     </Container>
   );
