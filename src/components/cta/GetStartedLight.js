@@ -3,6 +3,7 @@ import tw from "twin.macro";
 import { css } from "styled-components/macro"; //eslint-disable-line
 import { ReactComponent as SvgDecoratorBlob1 } from "images/svg-decorator-blob-9.svg";
 import { ContentWithPaddingXl, Container } from "components/misc/Layouts";
+import file from "../../casanteventsportfolio.pdf";
 
 const PrimaryBackgroundContainer = tw.div`py-16 lg:py-20 bg-purple-200 rounded-lg relative`
 const Row = tw.div`px-4 sm:px-16 mx-auto flex justify-center items-center relative z-10 flex-col lg:flex-row text-center lg:text-left`;
@@ -40,7 +41,7 @@ export default ({
               <Heading>{heading}</Heading>
             </TextContainer>
             <LinksContainer>
-              <a href="/casanteventsportfolio.pdf" download>
+              <a href={file} download>
                 <SecondaryLink>{secondaryLinkText}</SecondaryLink>
               </a>
             </LinksContainer>
