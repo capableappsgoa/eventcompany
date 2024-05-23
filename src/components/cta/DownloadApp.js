@@ -16,7 +16,7 @@ const Row = tw.div`px-8 flex items-center relative z-10 flex-col lg:flex-row tex
 const ColumnContainer = tw.div`max-w-2xl`
 const TextContainer = tw(ColumnContainer)``;
 const Text = tw(SectionHeading)`text-gray-100 lg:text-left max-w-none text-3xl leading-snug`;
-const Subheading = tw(SubheadingBase)`text-yellow-500 mb-4 tracking-wider`
+const Subheading = tw(SubheadingBase)`text-blue-500 mb-4 tracking-wider`
 
 const LinksContainer = tw.div`mt-8 lg:mt-16 flex flex-col items-center sm:block`
 const Link = styled.a`
@@ -35,13 +35,13 @@ const DecoratorBlobContainer = tw.div`absolute inset-0 overflow-hidden rounded-l
 const DecoratorBlob1 = tw(SvgDecoratorBlob1)`absolute bottom-0 left-0 w-80 h-80 transform -translate-x-20 translate-y-32 text-gray-800 opacity-50`
 const DecoratorBlob2 = tw(SvgDecoratorBlob1)`absolute top-0 right-0 w-80 h-80 transform  translate-x-20 -translate-y-64 text-gray-800 opacity-50`
 export default ({
-  subheading = "Download App",
-  text = "Developers all over the world are happily using Treact.",
-  link1Text = "App Store",
-  link1Url = "http://apple.com",
+  subheading = "Check out our Socials",
+  text = "We post our work and live updates. Do follow us on our socials to stay updated.",
+  link1Text = "Instagram",
+  link1Url = "https://www.instagram.com/casantevents.goa/",
   link1IconSrc = appleIconImageSrc,
-  link2Text = "Google Play",
-  link2Url = "http://play.google.com",
+  link2Text = "Facebook",
+  link2Url = "https://www.facebook.com/profile.php?id=100063716452803",
   link2IconSrc = googlePlayIconImageSrc,
   pushDownFooter = false,
   imageSrc = mockupImageSrc,
@@ -55,17 +55,17 @@ export default ({
             <Text>{text}</Text>
             <LinksContainer>
               <Link href={link1Url}>
-                <img src={link1IconSrc} alt=""/>
+                <img src="https://cloud.appwrite.io/v1/storage/buckets/6620f76347a6c75a350d/files/664ee9d00028d4bd5e97/view?project=661d51c7e4d47fa7d45d&mode=admin" alt=""/>
                 <span>{link1Text}</span>
               </Link>
               <Link href={link2Url}>
-                <img src={link2IconSrc} alt=""/>
+                <img src="https://cloud.appwrite.io/v1/storage/buckets/6620f76347a6c75a350d/files/664eea67001d69be440c/view?project=661d51c7e4d47fa7d45d&mode=admin" alt=""/>
                 <span>{link2Text}</span>
               </Link>
             </LinksContainer>
           </TextContainer>
           <ImageContainer>
-            <img src={imageSrc} alt="" tw="w-64"/>
+            <img src="https://cloud.appwrite.io/v1/storage/buckets/6620f76347a6c75a350d/files/664ee845000ac1e63cef/view?project=661d51c7e4d47fa7d45d&mode=admin" alt="" tw="w-64"/>
           </ImageContainer>
         </Row>
         <DecoratorBlobContainer>

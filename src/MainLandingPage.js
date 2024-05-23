@@ -14,6 +14,7 @@ import Footer from "components/footers/SimpleFiveColumn.js";
 import DevelopmentMessage from "DevelopmentMessage";
 import Message from "Message";
 import "./index.css";
+import DownloadApp from "components/cta/DownloadApp";
 
 export default () => (
   <AnimationRevealPage>
@@ -23,6 +24,7 @@ export default () => (
     </div>
     <Features />
     <Card />
+    <DownloadApp />
     <Gallery />
     <Blog />
     {/* <Planner /> */}

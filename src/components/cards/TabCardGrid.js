@@ -90,17 +90,18 @@ const TabCardGrid = () => {
   const Inventory = {
     heading: "Our Inventory",
     tabs: {
-        Sound: [
-            ...Data
-        ],
-        Light: [
-            ...dataLights
-        ],
-        Production : [
-            ...dataProduction
-        ]
+      Production: [
+        ...dataProduction
+      ],
+      Sound: [
+        ...Data
+      ],
+      Light: [
+        ...dataLights
+      ]
+
     }
-}
+  }
 
 
   const tabs = Inventory.tabs; // extract the tabs object
