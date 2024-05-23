@@ -40,7 +40,7 @@ export default ({
               <Heading>{heading}</Heading>
             </TextContainer>
             <LinksContainer>
-              <a href="/casanteventsportfolio.pdf" download={"casanteventsportfolio.pdf"}>
+              <a href="/casanteventsportfolio.pdf" download>
                 <SecondaryLink>{secondaryLinkText}</SecondaryLink>
               </a>
             </LinksContainer>
