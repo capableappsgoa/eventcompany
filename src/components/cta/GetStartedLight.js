@@ -17,17 +17,16 @@ const LinksContainer = tw(ColumnContainer)`flex justify-center lg:justify-end mt
 const Link = tw.a`w-full sm:w-auto text-sm sm:text-base px-6 py-3 sm:px-8 sm:py-4 lg:px-10 lg:py-5 mt-4 first:mt-0 sm:mt-0 sm:mr-8 sm:last:mr-0 rounded font-bold border border-transparent tracking-wide transition duration-300 focus:outline-none focus:shadow-outline`;
 const PrimaryLink = tw(Link)`shadow text-gray-100 hocus:text-gray-300 bg-primary-500 hocus:bg-primary-700`;
 
-const SecondaryLink = tw(Link)`text-primary-500 hover:text-primary-600 bg-gray-100 hover:bg-gray-200`;
+const SecondaryLink = tw(Link)`text-white hover:text-primary-600 bg-blue-500 hover:bg-gray-200`;
 
 const DecoratorBlobContainer = tw.div`absolute inset-0 overflow-hidden rounded-lg`
 const DecoratorBlob1 = tw(SvgDecoratorBlob1)`absolute bottom-0 left-0 w-80 h-80 transform -translate-x-20 translate-y-32 text-primary-500 opacity-5`
 const DecoratorBlob2 = tw(SvgDecoratorBlob1)`absolute top-0 right-0 w-80 h-80 transform  translate-x-20 -translate-y-64 text-primary-500 opacity-5`
 export default ({
-  subheading = "Interested in Treact ?",
-  heading = "Join the closed beta now.",
-  primaryLinkText = "Get Started",
+  subheading = "Interested in us?",
+  heading = "Download Our Portfolio!",
   primaryLinkUrl = "http://timerse.com",
-  secondaryLinkText = "Contact Us",
+  secondaryLinkText = "Download",
   secondaryLinkUrl = "http://google.com",
   pushDownFooter = true
 }) => {
@@ -41,7 +40,6 @@ export default ({
             <Heading>{heading}</Heading>
           </TextContainer>
           <LinksContainer>
-            <PrimaryLink href={primaryLinkUrl}>{primaryLinkText}</PrimaryLink>
             <SecondaryLink href={secondaryLinkUrl}>{secondaryLinkText}</SecondaryLink>
           </LinksContainer>
         </Row>

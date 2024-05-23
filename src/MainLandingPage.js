@@ -15,6 +15,8 @@ import DevelopmentMessage from "DevelopmentMessage";
 import Message from "Message";
 import "./index.css";
 import DownloadApp from "components/cta/DownloadApp";
+import GetStarted from "components/cta/GetStarted";
+import GetStartedLight from "components/cta/GetStartedLight";
 
 export default () => (
   <AnimationRevealPage>
@@ -30,6 +32,7 @@ export default () => (
     {/* <Planner /> */}
     {/* <Testimonial /> */}
     
+    <GetStartedLight />
     <Footer />
     {/* <DevelopmentMessage /> */}
     {/* <Message /> */}
