@@ -18,7 +18,7 @@ const StyledHeader = styled(Header)`
 const PrimaryLink = tw(PrimaryLinkBase)`rounded-full`
 const Container = styled.div`
   ${tw`relative -mx-8 -mt-8 bg-center bg-cover h-screen min-h-144`}
-  background-image: url("https://cloud.appwrite.io/v1/storage/buckets/6620f76347a6c75a350d/files/663f683000074c861c47/view?project=661d51c7e4d47fa7d45d&mode=admin");
+  background-image: url("https://cloud.appwrite.io/v1/storage/buckets/6620f76347a6c75a350d/files/664ed46e0034c50ee474/view?project=661d51c7e4d47fa7d45d&mode=admin");
 `;
 
 const OpacityOverlay = tw.div`z-10 absolute inset-0 bg-black opacity-75`;
@@ -60,32 +60,23 @@ export default () => {
 
   return (
     <Container>
-
       <OpacityOverlay />
       <HeroContainer>
         <StyledHeader links={navLinks} />
         <Content>
-        {
-        /* <video 
-        id="b9561b64-3c61-c5c4-9ac2-44c901e131c6-video"
-        className="h-full"
-        autoplay="true"
-        loop="true"
-        muted="true"
-        playsinline=""
-        data-wf-ignore="true"
-        data-object-fit="cover"
-      >
-        <source
-          src="https://assets-global.website-files.com/66041c667295e18e3d1ff479/663c3d605103bbec9e5d07fd_7mb(home)-transcode.mp4"
-          data-wf-ignore="true"
-        />
-        <source
-          src="https://assets-global.website-files.com/66041c667295e18e3d1ff479/663c3d605103bbec9e5d07fd_7mb(home)-transcode.webm"
-          data-wf-ignore="true"
-        />
-        </video> */
-        }
+
+          <video
+            id="b9561b64-3c61-c5c4-9ac2-44c901e131c6-video"
+            className="h-full"
+            autoplay="true"
+            loop="true"
+            muted="true"
+            playsinline=""
+            data-wf-ignore="true"
+            data-object-fit="cover" >
+            <source src="https://assets-global.website-files.com/66041c667295e18e3d1ff479/663c3d605103bbec9e5d07fd_7mb(home)-transcode.mp4" data-wf-ignore="true" />
+          </video>
+
           <Heading>
             Plan Your Next Event
             <br />
