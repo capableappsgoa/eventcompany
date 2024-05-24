@@ -17,6 +17,7 @@ import "./index.css";
 import DownloadApp from "components/cta/DownloadApp";
 import GetStarted from "components/cta/GetStarted";
 import GetStartedLight from "components/cta/GetStartedLight";
+import Chatbot from "pages/ChatBot";
 
 export default () => (
   <AnimationRevealPage>
@@ -33,6 +34,7 @@ export default () => (
     {/* <Testimonial /> */}
     
     <GetStartedLight />
+    {/* <Chatbot /> */}
     <Footer />
     {/* <DevelopmentMessage /> */}
     {/* <Message /> */}

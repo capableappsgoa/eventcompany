@@ -123,6 +123,7 @@ import GallerySection from "GallerySection";
 import GalleryPoster from "pages/GalleryPoster";
 import GalleryEdit from "pages/GalleryEdit";
 import GalleryUpdate from "pages/GalleryUpdate";
+import "./index.css"
 
 export const userinfo = JSON.parse(localStorage.getItem("user"));
 
@@ -145,7 +146,7 @@ export default function App() {
           <Route path="/AboutUs" element={<AboutUs />} />
 
  
-          {/* <Route path="/admin" element={<BlogPoster />} />
+          <Route path="/admin" element={<BlogPoster />} />
           <Route path="/GalleryEdit" element={<GalleryEdit />} />
           <Route path="/GalleryPoster" element={<GalleryPoster />} />
           <Route path="/GalleryEdit/GalleryUpdate" element={<GalleryUpdate />} />
@@ -153,7 +154,7 @@ export default function App() {
           <Route path="/BlogseditAdmin/BlogsUpdate" element={<BlogsUpdate />} />
           <Route path="/InventoryAdmin" element={<InventoryEdit />} />
           <Route path="/InventoryPost" element={<InventoryPost />} />
-          <Route path="/InventoryAdmin/InventoryUpdate" element={<InventoryUpdate />} /> */}
+          <Route path="/InventoryAdmin/InventoryUpdate" element={<InventoryUpdate />} />
         </Routes>
       </Router>
     </>
