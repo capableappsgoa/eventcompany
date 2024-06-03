@@ -18,6 +18,7 @@ import DownloadApp from "components/cta/DownloadApp";
 import GetStarted from "components/cta/GetStarted";
 import GetStartedLight from "components/cta/GetStartedLight";
 import Chatbot from "pages/ChatBot";
+import ThreeColSimpleWithImageAndDashedBorder from "components/blogs/ThreeColSimpleWithImageAndDashedBorder";
 
 export default () => (
   <AnimationRevealPage>
@@ -32,7 +33,7 @@ export default () => (
     <Blog />
     {/* <Planner /> */}
     {/* <Testimonial /> */}
-    
+    <ThreeColSimpleWithImageAndDashedBorder />
     <GetStartedLight />
     {/* <Chatbot /> */}
     <Footer />

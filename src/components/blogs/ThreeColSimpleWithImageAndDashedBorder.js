@@ -47,44 +47,43 @@ const DecoratorBlob2 = tw(
 
 export default ({
   subheading = "Blog",
-  heading = <>We Love <span tw="text-primary-500">Writing.</span></>,
-  description = "Some amazing blog posts that are written by even more amazing people.",
+  heading = <>We are <span tw="text-primary-500">Hiring.</span></>,
+  description = "We are looking forward to hire amazing talent & hardworking individuals for our team.",
 
 }) => {
   const blogPosts = [
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-      author: "Adam Wathan",
-      category: "SEO",
-      title: "Optimizing your website for your main keyword",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      url: "https://reddit.com"
+        "https://cloud.appwrite.io/v1/storage/buckets/6620f76347a6c75a350d/files/665d7b050022a273ad77/view?project=661d51c7e4d47fa7d45d&mode=admin",
+      author: "Applied : 9",
+      category: "Hiring",
+      title: "Require Professional Event Planners",
+      description: "Looking for Professional Event Planners who can handle : Costing , Clients , Hotel Bookings, On site Co-ordination",
+      url: "https://wa.me/919823291463?text=I'm%20interested%20in%20applying%20for%20Event%20Planning"
     },
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1479660095429-2cf4e1360472?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-      author: "Owais Khan",
-      category: "Advertising",
-      title: "Creating The perfect advertisement campaign",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      url: "https://timerse.com"
+        "https://cloud.appwrite.io/v1/storage/buckets/6620f76347a6c75a350d/files/665d97120033226ebe87/view?project=661d51c7e4d47fa7d45d&mode=admin",
+      author: "Applied : 23",
+      category: "Hiring",
+      title: "Require Dedicated Event Co-ordinators",
+      description: "Looking for Event Co-odinators who can handle : On-site Co-odination , Truck loading/unloading , Execution",
+      url: "https://wa.me/919823291463?text=I'm%20interested%20in%20applying%20for%20Event%20Co-ordination"
     },
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1579869847514-7c1a19d2d2ad?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
-      author: "Steve Schoger",
-      category: "Social Media",
-      title: "Efficient management of your social media assets",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      url: "https://timerse.com"
+        "https://cloud.appwrite.io/v1/storage/buckets/6620f76347a6c75a350d/files/665d98950007340577c0/view?project=661d51c7e4d47fa7d45d&mode=admin",
+      author: "Applied : 3",
+      category: "Hiring",
+      title: "Require Experienced Wedding Planners",
+      description: "Should be able to handle clients , Planning weddings, Hotel Bookings, Costing , On site Co-ordination & Execution",
+      url: "https://wa.me/919823291463?text=I'm%20interested%20in%20applying%20for%20Wedding%20Planning"
     }
   ];
   return (
     <Container>
       <Content>
         <HeadingInfoContainer>
-          {subheading && <Subheading>{subheading}</Subheading>}
           <HeadingTitle>{heading}</HeadingTitle>
           <HeadingDescription>{description}</HeadingDescription>
         </HeadingInfoContainer>
@@ -106,15 +105,13 @@ export default ({
                   </MetaContainer>
                   <Title>{post.title}</Title>
                   <Description>{post.description}</Description>
-                  <Link href={post.url}>Read Post</Link>
+                  <Link href={post.url}>Apply now</Link>
                 </Details>
               </Card>
             </Column>
           ))}
         </ThreeColumn>
       </Content>
-      <DecoratorBlob1 />
-      <DecoratorBlob2 />
     </Container>
   );
 };
